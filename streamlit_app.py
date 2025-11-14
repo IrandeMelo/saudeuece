@@ -70,17 +70,21 @@ def load_data():
 # ===============================
 
 st.set_page_config(
-    page_title="Classificador de Periódicos JCR/SJR",
+    page_title="Classificador de Periódicos PPGSUECE",
     layout="wide"
 )
 
-st.title("Classificador de Periódicos – JCR & SJR")
+st.title("Classificador de Periódicos PPGSUECE")
+
 st.markdown(
-    "Aplicação para consulta e classificação de periódicos "
-    "com base nos quartis do **JCR** e do **SCImago (SJR)**. "
-    "Os rótulos são: **MB, B, R, F** e **SEM_CLASSIFICACAO_JCR_SJR** "
-    "(quando não há JCR nem SJR disponíveis)."
+    """
+#### Classificador de Periódicos – JCR & SJR  
+
+Aplicação para consulta e classificação de periódicos com base nos quartis do **JCR** e do **SCImago (SJR)**.  
+Os rótulos são: **MB, B, R, F** e **SEM_CLASSIFICACAO_JCR_SJR** (quando não há JCR nem SJR disponíveis).
+"""
 )
+
 
 df = load_data()
 
