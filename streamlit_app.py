@@ -70,11 +70,11 @@ def load_data():
 # ===============================
 
 st.set_page_config(
-    page_title="Classificador de Periódicos PPGSUECE",
+    page_title="Classificador de Periódicos Científicos",
     layout="wide"
 )
 
-st.title("Classificador de Periódicos PPGSUECE")
+st.title("Classificador de Periódicos Científicos")
 
 st.markdown(
     """
